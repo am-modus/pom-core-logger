@@ -1,15 +1,16 @@
-class BaseLogger{
-    
-    constructor(name){
+class BaseLogger {
+    constructor(name) {
         this.name = name;
     }
 
-    error(err){
-        throw (this.name,"-->","You must override error(...) when you extend BaseLogger");
+    error() {
+        const err = `${this.name} --> You must override error(...) when you extend BaseLogger`;
+        throw err;
     }
 
-    log(message){
-        throw (this.name,"-->","MethodError: You must override log(...) when you extend BaseLogger";)
+    log() {
+        const err = `${this.name} --> You must override log(...) when you extend BaseLogger`;
+        throw err;
     }
 }
 

@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/am-modus/pom-core-logger#readme",
   "dependencies": {
-    "pom-core-eslint": "^1.0.0"
+    "eslint-config-pom-core-eslint": "^1.0.0"
   }
 }

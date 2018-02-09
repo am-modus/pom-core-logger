@@ -1,10 +1,14 @@
-const fs = require("fs");
-const loggersAvailable = fs.readdirSync("loggers");
+const fs = require('fs');
 
-class POMLogger{
-    constructor(type){
-        if(!type) throw "You must specify a 'type' of POMLogger";
+const loggersAvailable = fs.readdirSync('loggers');
 
-        type = type.trim().toLowerCase();
+class POMLogger {
+    constructor(type) {
+        if (!type) {
+            const err = `You must specify a ${type} of POMLogger`;
+            throw err;
+        }
+
+        const typeOfLogger = type.trim().toLowerCase();
     }
 }

@@ -1,12 +1,12 @@
-const BaseLogger = require("../baseLogger");
+const BaseLogger = require('../baseLogger');
 
-class SplunkLogger extends BaseLogger{
-    constructor(){
+class SplunkLogger extends BaseLogger {
+    constructor() {
         super('SplunkLogger');
     }
 
-    log(message){
-        console.log(this.name,"--->",message);
+    log(message) {
+        console.log(this.name, '--->', message);
     }
 }
 
