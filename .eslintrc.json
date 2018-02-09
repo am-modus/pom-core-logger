@@ -1,0 +1,7 @@
+{
+    "extends": "pom-core-eslint",
+    "rules": {
+        "arrow-body-style": 0,
+        "prefer-destructuring": 0
+    }
+}

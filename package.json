@@ -1,0 +1,22 @@
+{
+  "name": "pom-core-logger",
+  "version": "1.0.0",
+  "description": "a little logger utility for POM-MS",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/am-modus/pom-core-logger.git"
+  },
+  "author": "Asim Mittal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/am-modus/pom-core-logger/issues"
+  },
+  "homepage": "https://github.com/am-modus/pom-core-logger#readme",
+  "dependencies": {
+    "pom-core-eslint": "^1.0.0"
+  }
+}
