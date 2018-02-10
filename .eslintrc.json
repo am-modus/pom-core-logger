@@ -1,6 +1,3 @@
 {
-    "extends": "eslint-config-pom-core-eslint",
-    "rules":{
-        "import/no-dynamic-require": 0
-    }
+    "extends": "eslint-config-pom-core-eslint"
 }
