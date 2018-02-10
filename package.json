@@ -4,7 +4,8 @@
   "description": "a little logger utility for POM-MS",
   "main": "index.js",
   "scripts": {
-    "pretest": "eslint --ignore-path .gitignore ."
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "npm run pretest && node test.js"
   },
   "repository": {
     "type": "git",
