@@ -8,5 +8,5 @@ if (splunkLogger) {
 }
 
 if (newRelicLogger) {
-    newRelicLogger.log('This is a message by new relic');
+    newRelicLogger.log('This is a message by new relic\n\n');
 }
